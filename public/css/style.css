@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.sizedbox{
+    height: 50px;
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30vh;
+}
+
+.main h1{
+    font-size: 30px;
+    font-family: calibri;
+    color: black;
+}
+
+.login h1{
+    font-size: 30px;
+    font-family: calibri;
+    color: rgb(255, 66, 32);
+}
+
+.main img{
+    width: 200px;
+    height: 200px;
+}
+
+.buttons{
+    margin: 50px;
+}
+
+.buttons a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: calibri;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 88, 22);
+    padding: 8px 30px;
+    margin: 30px;
+}
+
+.forget{
+    text-decoration: none;
+    color: rgb(82, 81, 81);
+    font-family: calibri;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.login input{
+    width:30vw;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 8px 8px 8px rgb(39, 39, 39);
+    background-color: rgb(240, 240, 240);
+    padding-left:20px;
+}
+
+#submit{
+    width: 10vw;
+    background-color: rgb(255, 88, 22);
+    color: white;
+    box-shadow: none;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+

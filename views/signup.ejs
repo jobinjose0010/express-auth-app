@@ -1,0 +1,20 @@
+<%- include("./partials/header") %>
+<div class="main login">
+    <h1>Signup</h1>
+    <div class="sizedbox"></div>
+    <form action="/signup" method="POST" class="login-form">
+        <input type="email" name="username" id="email" placeholder="Email">
+        <div class="sizedbox"></div>
+        <input type="password" name="password" id="email" placeholder="Password">
+        <div class="sizedbox"></div>
+        <input id="submit" type="submit">
+        <br>
+        <a class="forget" href="/login">Existing user? Login </a>
+        <a href="/logout">Logout</a>
+    <a class="forget" href="#">forget password</a>
+    </form>
+</div>
+
+
+
+<%- include("./partials/footer") %>
